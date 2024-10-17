@@ -1,0 +1,272 @@
+/* Navbar */
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* Navbar */
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 20px 0; /* Aumenta el padding para hacer que el navbar sea más alto */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 24px; /* Aumenta el tamaño de la fuente para hacer los enlaces más grandes */
+    margin-left: 30px; /* Aumenta el espacio entre secciones */
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(221, 142, 16);
+    font-size: 24px; /* Aumenta el tamaño */
+    transform: scale(1.1); /* Aplica un escalado del 10% */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza la transición */
+}
+
+.navbar-brand {
+    color: #ffc107;
+    font-weight: bold;
+    font-size: 28px; /* Aumenta el tamaño del logo */
+    margin-right: 40px; /* Aumenta el espacio entre logo y menú */
+}
+
+
+/* Sección principal con imagen y botón */
+.seccion-compra {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    
+}
+
+.texto-compra h2 {
+    font-size: 2.5rem; /* Tamaño del texto */
+    font-weight: bold;
+}
+
+.texto-compra p {
+    font-size: 1.8rem; /* Tamaño del texto */
+}
+
+.flecha-abajo {
+    font-size: 2rem;
+    color: black;
+}
+.imagen-messi{
+    width: 40%;
+    margin-left: 150px;
+}
+
+
+
+.imagen-ronaldo{
+    margin-right: 0px;
+    width: 60%;
+}
+
+/* Fuente Merriweather */
+.merriweather-light {
+    font-family: 'Merriweather', serif;
+    font-weight: 300; /* Ligero */
+}
+
+/* Centrar el texto */
+.centrado {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Merriweather', serif; /* Aplica la fuente Merriweather */
+}
+
+
+/* Botón Comprar */
+.btn-comprar {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+}
+
+.btn-comprar:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1); /* Aplica un escalado del 10% */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza la transición */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ver más */
+.ver-mas-container {
+    text-align: center; /* Centrar el contenido */
+}
+
+.btn-ver-mas {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 12px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor */
+}
+
+.btn-ver-mas:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+.img-container {
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen sin distorsionar */
+}
+
+/* Asegúrate de que estas reglas están en tu CSS */
+
+/* Botones en la card */
+.btn-container {
+    display: flex; /* Utiliza flexbox para alinear los botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 15px; /* Espacio entre los botones */
+}
+
+/* Botones personalizados */
+.comprar-card, .ver-card {
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 30px; /* Bordes redondeados */
+    font-size: 1.1rem;
+}
+
+.ver-card:hover {
+    transform: scale(1.1); /* Aplica un escalado del 10% */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza la transición */
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+.comprar-card:hover{
+    transform: scale(1.1); /* Aplica un escalado del 10% */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza la transición */
+    background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+
+/* Estilo para el botón Comprar */
+.comprar-card {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
+
+
+
+/* Estilo para el botón Ver */
+.ver-card {
+    background-color: #000000; /* Color de fondo */
+    color: white; /* Color del texto */
+}
+
+.ver-mas{
+   
+    border-radius: 12px;
+    font-size: 1.3rem;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.ver-mas:hover{
+    transform: scale(1.1); /* Aplica un escalado del 10% */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza la transición */
+    background-color: #0056b3;
+ 
+}
+
+.tit-pre{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.card-title{
+    font-size: 1.4rem;
+}
+
+.site-footer {
+    background-color: #343a40; /* Color de fondo */
+    color: #f8f9fa; /* Color del texto */
+    padding: 2rem 0;
+}
+
+.site-footer h6 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: left; /* Alinear a la izquierda */
+}
+
+.site-footer p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+    text-align: left; /* Alinear todo el texto a la izquierda */
+    margin-bottom: 1rem;
+}
+
+.site-footer img {
+    margin-right: 10px;
+    vertical-align: middle;
+    max-width: 50px; /* Ajuste de tamaño */
+}
+
+.social-icons {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end; /* Los íconos sociales siguen alineados a la derecha */
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social-icons a {
+    color: #f8f9fa;
+    transition: color 0.3s ease;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.social-icons a:hover {
+    color: #ff5722;
+}
+
+.copyright-text {
+    font-size: 0.875rem;
+    color: #cccccc;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .site-footer .col-md-6 {
+        text-align: left; /* Mantiene la alineación a la izquierda en pantallas pequeñas */
+    }
+    
+    .social-icons {
+        justify-content: center; /* Los íconos sociales centrados en pantallas pequeñas */
+    }
+}
